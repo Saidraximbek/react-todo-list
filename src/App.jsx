@@ -49,7 +49,7 @@ function App() {
           {items.map((item) => (
             <li key={item.id} className="item">
               <p>
-                {item.id}. {item.text}
+                {item.text}
               </p>
               <i
                 onClick={() => deleteFun(item.id)}
