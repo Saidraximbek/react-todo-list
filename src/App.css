@@ -1,0 +1,80 @@
+.hero-container {
+  margin-top: 75px;
+  background-color: rgb(51, 50, 50);
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 12px rgb(255, 60, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.hero-form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.text-input {
+  width: 100%;
+  height: 36px;
+  border: rgb(31, 30, 30) 2px solid;
+  border-radius: 6px;
+  padding-left: 8px;
+  font-size: 16px;
+  background-color: rgb(31, 30, 30);
+  background: linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.add-btn {
+  width: 75px;
+  height: 36px;
+  border-radius: 6px;
+  border: 2px solid rgb(31, 30, 30);
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.add-btn:hover {
+  color: rgb(31, 30, 30);
+  background-color: rgb(255, 123, 0);
+  transition: ease background 0.3s, color 0.3s;
+}
+
+.add-btn:active {
+  opacity: 0.6;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.item {
+  background-color: rgb(31, 30, 30);
+  padding: 12px;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 4px 4px 8px rgb(0, 0, 0);
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trash {
+  color: white;
+}
+
+#trash:hover {
+  color: red;
+}
