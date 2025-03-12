@@ -12,7 +12,7 @@ function App() {
 
   const submit = (e) => {
     e.preventDefault();
-    if (val.trim() === "") return;
+   
 
     const newItem = {
       id: num,
